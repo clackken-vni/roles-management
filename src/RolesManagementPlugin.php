@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Vnideas\RolesManagement;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class RolesManagementPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'roles-management';
     }
 
     public function register(Panel $panel): void

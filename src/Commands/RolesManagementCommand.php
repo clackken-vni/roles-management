@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Vnideas\RolesManagement\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class RolesManagementCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'roles-management';
 
     public $description = 'My command';
 
